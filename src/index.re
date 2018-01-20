@@ -1,1 +1,1 @@
-ReactDOMRe.renderToElementWithId(<Greeting />, "index");
+ReactDOMRe.renderToElementWithId(<Form />, "index");

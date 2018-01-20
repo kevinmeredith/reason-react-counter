@@ -26,7 +26,7 @@ let make = (_children) => {
          };
         <div>
           <button onClick={_event => self.send(Click)}>{ReasonReact.stringToElement("+")}</button>
-          <button onClick={_event => self.send(Toggle)}>{{ReasonReact.stringToElement("Toggle")}}</button>
+          <button onClick={_event => self.send(Toggle)}>{ReasonReact.stringToElement("Toggle")}</button>
           <span>{ReasonReact.stringToElement(message)}</span>
         </div>
   }
