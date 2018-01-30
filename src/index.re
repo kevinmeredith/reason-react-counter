@@ -1,1 +1,3 @@
-ReactDOMRe.renderToElementWithId(<Form />, "index");
+ReactDOMRe.renderToElementWithId(
+    <ProductCategoryRow title="foo" productRows=[] />, "index"
+);
